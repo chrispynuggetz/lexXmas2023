@@ -2,7 +2,7 @@ function handleClick(){
         // JavaScript to handle the button click event
             var giftBox = document.getElementsByClassName('money');
                 giftBox[0].style.display = "block";
-                    const element = giftbox[0];
+                    const element = giftBox[0];
   let currentNumber = 0;
 
   const interval = 10000 / 100;

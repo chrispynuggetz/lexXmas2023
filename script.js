@@ -14,6 +14,6 @@ function handleClick(){
     if (currentNumber >= 100) {
       clearInterval(intervalId);
     }
-  }, interval).then(res=>{giftBox[0].style.display = "block";});
+  }, interval);
 
 }

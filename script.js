@@ -9,6 +9,7 @@ function handleClick(){
   const intervalId = setInterval(() => {
     currentNumber++;
     element.textContent = currentNumber;
+          giftBox[0].style.display = "block";
         console.log('hi',currentNumber);
     if (currentNumber >= 100) {
       clearInterval(intervalId);

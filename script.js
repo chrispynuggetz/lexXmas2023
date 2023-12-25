@@ -5,12 +5,12 @@ function handleClick(){
                     const element = giftbox[0];
   let currentNumber = 0;
 
-  const interval = duration / maxNumber;
+  const interval = 10000 / 100;
   const intervalId = setInterval(() => {
     currentNumber++;
     element.textContent = currentNumber;
 
-    if (currentNumber >= maxNumber) {
+    if (currentNumber >= 100) {
       clearInterval(intervalId);
     }
   }, interval);
